@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Mapa de Profesionales</title>
+  <link rel="stylesheet" href="estilos.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+</head>
+<body>
+  <header class="encabezado">
+    <div class="marca">
+      <span class="marcaIcono">🗺️</span>
+      <h1>Mapa de Profesionales TDAH</h1>
+    </div>
+    <div class="acciones">
+      <button id="btnExportarJSON" class="btn">Exportar JSON</button>
+      <label class="btn archivoBtn">Importar JSON<input type="file" id="archivoImportarJSON" accept="application/json"/></label>
+    </div>
+  </header>
+
+  <main class="distribucion distribucion2col conBarraDerecha">
+    <!-- Columna principal: Mapa -->
+    <section class="panelMapa centro">
+      <div id="mapa"></div>
+    </section>
+
+    <!-- Barra lateral derecha con pestañas -->
+    <aside class="barraDerecha">
+      <div class="pestanasLateral">
+        <button class="pestanaBoton activo" data-tab="filtros">Filtros</button>
+        <button class="pestanaBoton" data-tab="listado">Listado <span id="conteoLista" class="etiqueta">0</span></button>
+      </div>
+
+      <!-- Panel Filtros (visible por defecto) -->
+      <div class="panelLateral panelFiltros" data-panel="filtros">
+        <section class="tarjeta">
+          <h2>Filtros</h2>
+
+          <div class="campo">
+            <label for="busqueda">Por nombre</label>
+            <input id="busqueda" type="search" placeholder="Ej: Andares, López…"/>
+          </div>
+
+          <div class="campo">
+            <label for="filtroZona">Zona</label>
+            <select id="filtroZona">
+              <option value="">Todas</option>
+            </select>
+          </div>
+
+          <details open>
+            <summary>Centros</summary>
+            <div id="filtrosCentros" class="listaCheck"></div>
+          </details>
+
+          <details open>
+            <summary>Especialidad</summary>
+            <div id="filtrosEspecialidades" class="listaCheck scroll"></div>
+          </details>
+
+          <details open>
+            <summary>Población</summary>
+            <div id="filtrosPoblacion" class="listaCheck"></div>
+          </details>
+
+          <div class="chips" id="filtrosActivos"><span class="muted">Sin filtros activos</span></div>
+          <button id="btnLimpiarFiltros" class="btn secundario ancho">Limpiar filtros</button>
+        </section>
+      </div>
+
+      <!-- Panel Listado (oculto al inicio) -->
+      <div class="panelLateral panelListado" data-panel="listado" hidden>
+        <section class="tarjeta">
+          <h2>Listado</h2>
+          <div id="lista" class="lista"></div>
+        </section>
+      </div>
+    </aside>
+  </main>
+
+  <script>
+    // Tabs de la barra lateral derecha
+    (function(){
+      const tabs = document.querySelectorAll('.pestanaBoton');
+      const panels = document.querySelectorAll('.panelLateral');
+      tabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const destino = btn.getAttribute('data-tab');
+          tabs.forEach(b => b.classList.toggle('activo', b === btn));
+          panels.forEach(p => {
+            const mostrar = p.getAttribute('data-panel') === destino;
+            p.hidden = !mostrar;
+          });
+          // Dispara un reflow del mapa para evitar glitches cuando se cambia de panel
+          try { if (window.mapa && window.mapa.invalidateSize) setTimeout(() => mapa.invalidateSize(), 100); } catch(e){}
+        });
+      });
+    })();
+  </script>
+
+
+	<footer class="pie pieDoscolumnas">
+    <div class="texto"><span id="estadoBD">Base de datos: <em>cargando…</em></span></div>
+    <div class="texto"> · Última actualización: 15-8-2025 04:58 · </div>
+    <div class="texto"><a href="https://github.com/Luckcastell">Hecho por Luca Castelli</a></div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="mapa.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Red de Profesionales – Formulario</title>
+  <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+  <header class="encabezado">
+    <div class="marca">
+      <span class="marca-icono">📝</span>
+      <h1>Alta / Edición</h1>
+    </div>
+    <div class="acciones">
+      <a href="index.html" class="btn secundario">Volver al mapa</a>
+    </div>
+  </header>
+
+  <main class="distribucion formulario-layout">
+    <section class="tarjeta">
+      <h2>Formulario</h2>
+      <form id="formularioItem" novalidate>
+        <input type="hidden" id="campoId"/>
+
+        <div class="campo">
+          <label for="campoNombre">Nombre*</label>
+          <input id="campoNombre" required placeholder="Nombre del lugar o profesional"/>
+          <small class="ayuda">Obligatorio</small>
+        </div>
+
+        <div class="campo inline">
+          <label for="campoEsCentro">¿Es centro?</label>
+          <input id="campoEsCentro" type="checkbox"/>
+        </div>
+
+        <div class="campo">
+          <label for="campoTipoCentro">Tipo de centro</label>
+          <select id="campoTipoCentro" disabled>
+            <option value="">— Seleccionar —</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label>Especialidades*</label>
+          <div id="grupoEspecialidades" class="lista-check compacto"></div>
+          <small class="ayuda">Elegí al menos una</small>
+        </div>
+
+        <div class="campo">
+          <label>Población*</label>
+          <div id="grupoPoblacion" class="lista-check compacto"></div>
+          <small class="ayuda">Elegí al menos una</small>
+        </div>
+
+        <div class="campo">
+          <label for="campoZona">Zona</label>
+          <input id="campoZona" placeholder="Ej: Flores, CABA, Argentina"/>
+        </div>
+
+        <div class="campo grid2">
+          <div>
+            <label for="campoLat">Lat*</label>
+            <input id="campoLat" type="number" step="any" required placeholder="-34.60" min="-90" max="90"/>
+          </div>
+          <div>
+            <label for="campoLng">Lng*</label>
+            <input id="campoLng" type="number" step="any" required placeholder="-58.38" min="-180" max="180"/>
+          </div>
+        </div>
+        <small class="ayuda">Tip: en la página del mapa, hacé clic para obtener lat/lng y copialos aquí.</small>
+
+        <div class="campo">
+          <label for="campoDireccion">Dirección</label>
+          <input id="campoDireccion" placeholder="Calle 123"/>
+        </div>
+
+        <div class="campo grid2">
+          <div>
+            <label for="campoCiudad">Ciudad</label>
+            <input id="campoCiudad" placeholder="Buenos Aires"/>
+          </div>
+          <div>
+            <label for="campoPais">País</label>
+            <input id="campoPais" placeholder="Argentina"/>
+          </div>
+        </div>
+
+        <div class="campo grid2">
+          <div>
+            <label for="campoWeb">Web</label>
+            <input id="campoWeb" type="url" placeholder="https://sitio.ejemplo"/>
+          </div>
+          <div>
+            <label for="campoContacto">Contacto</label>
+            <input id="campoContacto" placeholder="+54 11 5555-5555"/>
+          </div>
+        </div>
+
+        <div class="acciones-formulario">
+          <button type="submit" class="btn">Guardar</button>
+          <button type="button" id="btnNuevo" class="btn secundario">Nuevo</button>
+          <button type="button" id="btnEliminar" class="btn peligro">Eliminar</button>
+        </div>
+
+        <div id="erroresFormulario" class="errores" hidden></div>
+      </form>
+    </section>
+
+    <section class="tarjeta">
+      <h2>Listado <span id="conteoFormulario" class="etiqueta">0</span></h2>
+      <div id="listaFormulario" class="lista"></div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    Datos en <strong>data.json</strong>. Recordá exportar desde el mapa si editás aquí.
+  </footer>
+
+  <script src="formulario.js"></script>
+</body>
+</html>

@@ -1,0 +1,3810 @@
+[
+  {
+    "id": "1",
+    "nombre": "Consultorios Horizonte São Paulo",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -23.5695,
+      "lng": -46.642299
+    },
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "zona": "São Paulo, Brasil",
+    "tipoCentro": "centro de terapias",
+    "web": "https://ejemplo.org/consultorios-horizonte-são-paulo",
+    "contacto": "+78 127 4257"
+  },
+  {
+    "id": "2",
+    "nombre": "Instituto Integral Medellín",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 6.252253,
+      "lng": -75.584419
+    },
+    "ciudad": "Medellín",
+    "pais": "Colombia",
+    "zona": "Medellín, Colombia",
+    "tipoCentro": "centro de integracion",
+    "web": "https://ejemplo.org/instituto-integral-medellín",
+    "contacto": "+46 967 6635"
+  },
+  {
+    "id": "3",
+    "nombre": "Dr/a. Thiago Alvarez",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -33.436615,
+      "lng": -70.660111
+    },
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "zona": "Santiago, Chile",
+    "direccion": "Calle Italia 3062"
+  },
+  {
+    "id": "4",
+    "nombre": "Dr/a. Micaela Torres",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra",
+      "psicologo TCC",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 43.277659,
+      "lng": -2.939795
+    },
+    "ciudad": "Bilbao",
+    "pais": "España",
+    "zona": "Bilbao, España",
+    "direccion": "Calle Italia 1816",
+    "web": "https://ejemplo.org/dr/a-micaela-torres",
+    "contacto": "+82 804 4598"
+  },
+  {
+    "id": "5",
+    "nombre": "Centro Del Parque La Paz",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "terapia ocupacional",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -16.475986,
+      "lng": -68.10826
+    },
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "zona": "La Paz, Bolivia",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Rivadavia 9392",
+    "web": "https://ejemplo.org/centro-del-parque-la-paz",
+    "contacto": "+72 651 5304"
+  },
+  {
+    "id": "6",
+    "nombre": "Clínica Talentos Madrid",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 40.413937,
+      "lng": -3.700459
+    },
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": "Madrid, España",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. San Martín 1896",
+    "contacto": "+77 579 9669"
+  },
+  {
+    "id": "7",
+    "nombre": "Dr/a. Luis Flores",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -41.131371,
+      "lng": -71.292603
+    },
+    "ciudad": "Bariloche",
+    "pais": "Argentina",
+    "zona": "Río Negro, Argentina"
+  },
+  {
+    "id": "8",
+    "nombre": "Centro Sur Nueva York",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo",
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 40.703336,
+      "lng": -74.005977
+    },
+    "ciudad": "Nueva York",
+    "pais": "EEUU",
+    "zona": "Nueva York, EEUU",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Rivadavia 2604",
+    "contacto": "+15 471 6038"
+  },
+  {
+    "id": "9",
+    "nombre": "Consultorios Del Sol Comodoro Rivadavia",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -45.875365,
+      "lng": -67.479706
+    },
+    "ciudad": "Comodoro Rivadavia",
+    "pais": "Argentina",
+    "zona": "Chubut, Argentina",
+    "tipoCentro": "centro de integracion",
+    "contacto": "+68 993 7932"
+  },
+  {
+    "id": "10",
+    "nombre": "Dr/a. Noelia Fernández",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 31.247557,
+      "lng": 121.483911
+    },
+    "ciudad": "Shanghái",
+    "pais": "China",
+    "zona": "Shanghái, China",
+    "direccion": "Calle Italia 3688",
+    "web": "https://ejemplo.org/dr/a-noelia-fernández",
+    "contacto": "+71 335 4608"
+  },
+  {
+    "id": "11",
+    "nombre": "Centro Del Parque CABA",
+    "esCentro": true,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.595386,
+      "lng": -58.399245
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Belgrano 8053",
+    "web": "https://ejemplo.org/centro-del-parque-caba",
+    "contacto": "+53 294 2545"
+  },
+  {
+    "id": "12",
+    "nombre": "Dr/a. Emilia Rodríguez",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC",
+      "psicologo psicoanalista",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.422858,
+      "lng": -64.191857
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "contacto": "+25 294 9786"
+  },
+  {
+    "id": "13",
+    "nombre": "Centro Del Sol Ciudad de Guatemala",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 14.631775,
+      "lng": -90.515758
+    },
+    "ciudad": "Ciudad de Guatemala",
+    "pais": "Guatemala",
+    "zona": "Ciudad de Guatemala, Guatemala",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Mitre 341",
+    "contacto": "+52 160 3697"
+  },
+  {
+    "id": "14",
+    "nombre": "Dr/a. Florencia Fernández",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 19.452012,
+      "lng": -99.142592
+    },
+    "ciudad": "CDMX",
+    "pais": "México",
+    "zona": "Ciudad de México, México",
+    "direccion": "Calle Urquiza 4086"
+  },
+  {
+    "id": "15",
+    "nombre": "Dr/a. Julián Castro",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 40.399087,
+      "lng": -3.700433
+    },
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": "Madrid, España",
+    "direccion": "Calle Urquiza 756",
+    "contacto": "+16 683 5033"
+  },
+  {
+    "id": "16",
+    "nombre": "Dr/a. Natalia Castro",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "terapia ocupacional",
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -12.06481,
+      "lng": -77.059521
+    },
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "zona": "Lima, Perú",
+    "direccion": "Calle Italia 1773"
+  },
+  {
+    "id": "17",
+    "nombre": "Dr/a. Luis López",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 35.656573,
+      "lng": 139.655146
+    },
+    "ciudad": "Tokio",
+    "pais": "Japón",
+    "zona": "Tokio, Japón",
+    "contacto": "+70 820 5956"
+  },
+  {
+    "id": "18",
+    "nombre": "Equipo Sur Montevideo",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.881611,
+      "lng": -56.158341
+    },
+    "ciudad": "Montevideo",
+    "pais": "Uruguay",
+    "zona": "Montevideo, Uruguay",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Rivadavia 4433",
+    "web": "https://ejemplo.org/equipo-sur-montevideo"
+  },
+  {
+    "id": "19",
+    "nombre": "Fundación Sur Medellín",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 6.232344,
+      "lng": -75.57583
+    },
+    "ciudad": "Medellín",
+    "pais": "Colombia",
+    "zona": "Medellín, Colombia",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Independencia 4633",
+    "web": "https://ejemplo.org/fundación-sur-medellín",
+    "contacto": "+91 537 1158"
+  },
+  {
+    "id": "20",
+    "nombre": "Centro Del Parque Rosario",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -32.926398,
+      "lng": -60.642859
+    },
+    "ciudad": "Rosario",
+    "pais": "Argentina",
+    "zona": "Rosario, Santa Fe, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Independencia 2188",
+    "web": "https://ejemplo.org/centro-del-parque-rosario",
+    "contacto": "+14 462 7658"
+  },
+  {
+    "id": "21",
+    "nombre": "Clínica Andares Nueva Delhi",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional",
+      "pediatra",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 28.623879,
+      "lng": 77.226031
+    },
+    "ciudad": "Nueva Delhi",
+    "pais": "India",
+    "zona": "Nueva Delhi, India",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Belgrano 6845",
+    "contacto": "+61 327 4269"
+  },
+  {
+    "id": "22",
+    "nombre": "Dr/a. Pedro Romero",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 52.518412,
+      "lng": 13.397208
+    },
+    "ciudad": "Berlín",
+    "pais": "Alemania",
+    "zona": "Berlín, Alemania",
+    "direccion": "Calle Sarmiento 3364"
+  },
+  {
+    "id": "23",
+    "nombre": "Equipo Sur Lomas de Zamora",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psiquiatra",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.780596,
+      "lng": -58.383818
+    },
+    "ciudad": "Lomas de Zamora",
+    "pais": "Argentina",
+    "zona": "GBA Sur, Buenos Aires, Argentina",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Independencia 5763",
+    "web": "https://ejemplo.org/equipo-sur-lomas-de-zamora",
+    "contacto": "+67 925 9821"
+  },
+  {
+    "id": "24",
+    "nombre": "Fundación Horizonte La Paz",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -16.472089,
+      "lng": -68.109818
+    },
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "zona": "La Paz, Bolivia",
+    "tipoCentro": "centro de terapias"
+  },
+  {
+    "id": "25",
+    "nombre": "Consultorios San Martín Villa María",
+    "esCentro": true,
+    "especialidades": [
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.405612,
+      "lng": -63.052024
+    },
+    "ciudad": "Villa María",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "tipoCentro": "centro de terapias"
+  },
+  {
+    "id": "26",
+    "nombre": "Dr/a. Camila Silva",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.932993,
+      "lng": -57.94297
+    },
+    "ciudad": "La Plata",
+    "pais": "Argentina",
+    "zona": "La Plata, Buenos Aires, Argentina",
+    "direccion": "Calle Sarmiento 4287"
+  },
+  {
+    "id": "27",
+    "nombre": "Clínica Del Sol Río de Janeiro",
+    "esCentro": true,
+    "especialidades": [
+      "neurologo"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -22.917814,
+      "lng": -43.184935
+    },
+    "ciudad": "Río de Janeiro",
+    "pais": "Brasil",
+    "zona": "Río de Janeiro, Brasil",
+    "tipoCentro": "centro de terapias",
+    "contacto": "+84 804 1090"
+  },
+  {
+    "id": "28",
+    "nombre": "Dr/a. Pedro Pérez",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "neurologo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 34.066618,
+      "lng": -118.228281
+    },
+    "ciudad": "Los Ángeles",
+    "pais": "EEUU",
+    "zona": "Los Ángeles, EEUU",
+    "contacto": "+18 920 8612"
+  },
+  {
+    "id": "29",
+    "nombre": "Dr/a. Abril Silva",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "psiquiatra",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -22.887284,
+      "lng": -43.169082
+    },
+    "ciudad": "Río de Janeiro",
+    "pais": "Brasil",
+    "zona": "Río de Janeiro, Brasil"
+  },
+  {
+    "id": "30",
+    "nombre": "Dr/a. Pedro Díaz",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 40.407892,
+      "lng": -3.692693
+    },
+    "ciudad": "Sevilla",
+    "pais": "España",
+    "zona": "Sevilla, España",
+    "direccion": "Calle Italia 2020",
+    "web": "https://ejemplo.org/dr/a-pedro-díaz",
+    "contacto": "+89 256 4505"
+  },
+  {
+    "id": "31",
+    "nombre": "Clínica San Martín CABA",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.607396,
+      "lng": -58.379896
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "tipoCentro": "centro clinica de profecionales",
+    "web": "https://ejemplo.org/clínica-san-martín-caba",
+    "contacto": "+54 651 9947"
+  },
+  {
+    "id": "32",
+    "nombre": "Fundación Integral Londres",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo",
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 51.523312,
+      "lng": -0.128271
+    },
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "zona": "Londres, Reino Unido",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Independencia 2804"
+  },
+  {
+    "id": "33",
+    "nombre": "Instituto San Martín Córdoba",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.422955,
+      "lng": -64.174126
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Belgrano 5629",
+    "web": "https://ejemplo.org/instituto-san-martín-córdoba"
+  },
+  {
+    "id": "34",
+    "nombre": "Dr/a. Agustina Rodríguez",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 13.750298,
+      "lng": 100.507806
+    },
+    "ciudad": "Bangkok",
+    "pais": "Tailandia",
+    "zona": "Bangkok, Tailandia",
+    "web": "https://ejemplo.org/dr/a-agustina-rodríguez",
+    "contacto": "+15 677 4571"
+  },
+  {
+    "id": "35",
+    "nombre": "Dr/a. Emilia Acosta",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 13.68315,
+      "lng": -89.223444
+    },
+    "ciudad": "San Salvador",
+    "pais": "El Salvador",
+    "zona": "San Salvador, El Salvador",
+    "direccion": "Calle Sarmiento 2648"
+  },
+  {
+    "id": "36",
+    "nombre": "Dr/a. Micaela Cruz",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 19.450259,
+      "lng": -99.145267
+    },
+    "ciudad": "CDMX",
+    "pais": "México",
+    "zona": "Ciudad de México, México",
+    "direccion": "Calle Italia 1091",
+    "contacto": "+83 449 1207"
+  },
+  {
+    "id": "37",
+    "nombre": "Dr/a. Agustina Ortega",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "psiquiatra",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 37.401993,
+      "lng": -6.000278
+    },
+    "ciudad": "Sevilla",
+    "pais": "España",
+    "zona": "Sevilla, España"
+  },
+  {
+    "id": "38",
+    "nombre": "Dr/a. Camila Vargas",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 41.383695,
+      "lng": 2.186429
+    },
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": "Barcelona, España",
+    "direccion": "Calle Laprida 2384",
+    "web": "https://ejemplo.org/dr/a-camila-vargas",
+    "contacto": "+42 286 8988"
+  },
+  {
+    "id": "39",
+    "nombre": "Dr/a. Noelia Ortega",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.732687,
+      "lng": -60.523986
+    },
+    "ciudad": "Santa Fe",
+    "pais": "Argentina",
+    "zona": "Santa Fe, Argentina",
+    "direccion": "Calle Laprida 4332"
+  },
+  {
+    "id": "40",
+    "nombre": "Dr/a. Ana Fernández",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "pediatra de neurodesarrollo",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 4.716836,
+      "lng": -74.072467
+    },
+    "ciudad": "Bogotá",
+    "pais": "Colombia",
+    "zona": "Bogotá, Colombia",
+    "direccion": "Calle Sarmiento 2608"
+  },
+  {
+    "id": "41",
+    "nombre": "Centro Norte Lomas de Zamora",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.753586,
+      "lng": -58.408063
+    },
+    "ciudad": "Lomas de Zamora",
+    "pais": "Argentina",
+    "zona": "GBA Sur, Buenos Aires, Argentina",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Mitre 3133",
+    "web": "https://ejemplo.org/centro-norte-lomas-de-zamora"
+  },
+  {
+    "id": "42",
+    "nombre": "Dr/a. Diego Romero",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "psicopedagogo",
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 41.388972,
+      "lng": 2.19262
+    },
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": "Barcelona, España",
+    "direccion": "Calle Italia 215"
+  },
+  {
+    "id": "43",
+    "nombre": "Dr/a. Natalia Fernández",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -32.929462,
+      "lng": -60.650865
+    },
+    "ciudad": "Rosario",
+    "pais": "Argentina",
+    "zona": "Rosario, Santa Fe, Argentina",
+    "direccion": "Calle España 2891",
+    "contacto": "+10 690 1878"
+  },
+  {
+    "id": "44",
+    "nombre": "Clínica Horizonte San Salvador de Jujuy",
+    "esCentro": true,
+    "especialidades": [
+      "apoyo escolar",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -24.173354,
+      "lng": -65.281535
+    },
+    "ciudad": "San Salvador de Jujuy",
+    "pais": "Argentina",
+    "zona": "Jujuy, Argentina",
+    "tipoCentro": "centro de terapias",
+    "contacto": "+76 539 6003"
+  },
+  {
+    "id": "45",
+    "nombre": "Clínica Norte Lima",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -12.063991,
+      "lng": -77.024396
+    },
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "zona": "Lima, Perú",
+    "tipoCentro": "centro clinica de profecionales",
+    "web": "https://ejemplo.org/clínica-norte-lima",
+    "contacto": "+89 708 8699"
+  },
+  {
+    "id": "46",
+    "nombre": "Dr/a. Florencia López",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -27.794141,
+      "lng": -64.255922
+    },
+    "ciudad": "Santiago del Estero",
+    "pais": "Argentina",
+    "zona": "Santiago del Estero, Argentina"
+  },
+  {
+    "id": "47",
+    "nombre": "Consultorios Infancia Roma",
+    "esCentro": true,
+    "especialidades": [
+      "psiquiatra",
+      "pediatra",
+      "neurologo"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 41.885656,
+      "lng": 12.483037
+    },
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "zona": "Roma, Italia",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Independencia 5082"
+  },
+  {
+    "id": "48",
+    "nombre": "Dr/a. Julián Rojas",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -33.467865,
+      "lng": -70.680143
+    },
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "zona": "Santiago, Chile",
+    "contacto": "+67 767 8245"
+  },
+  {
+    "id": "49",
+    "nombre": "Dr/a. Santiago López",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 45.48896,
+      "lng": -73.563887
+    },
+    "ciudad": "Montreal",
+    "pais": "Canadá",
+    "zona": "Montreal, Canadá",
+    "direccion": "Calle España 2830",
+    "web": "https://ejemplo.org/dr/a-santiago-lópez"
+  },
+  {
+    "id": "50",
+    "nombre": "Instituto Horizonte Berlín",
+    "esCentro": true,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 52.522004,
+      "lng": 13.403193
+    },
+    "ciudad": "Berlín",
+    "pais": "Alemania",
+    "zona": "Berlín, Alemania",
+    "tipoCentro": "centro clinica de profecionales",
+    "web": "https://ejemplo.org/instituto-horizonte-berlín",
+    "contacto": "+97 610 8242"
+  },
+  {
+    "id": "51",
+    "nombre": "Dr/a. Florencia Ortega",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 41.373242,
+      "lng": 2.175369
+    },
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": "Barcelona, España",
+    "contacto": "+2 665 7684"
+  },
+  {
+    "id": "52",
+    "nombre": "Dr/a. Luis Cruz",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra",
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.40041,
+      "lng": -64.172283
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "contacto": "+61 349 8483"
+  },
+  {
+    "id": "53",
+    "nombre": "Dr/a. Abril González",
+    "esCentro": false,
+    "especialidades": [
+      "psiquiatra",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 18.460843,
+      "lng": -66.088825
+    },
+    "ciudad": "San Juan",
+    "pais": "Puerto Rico",
+    "zona": "San Juan, Puerto Rico",
+    "contacto": "+39 957 9022"
+  },
+  {
+    "id": "54",
+    "nombre": "Equipo San Martín Nueva York",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 40.710662,
+      "lng": -74.006626
+    },
+    "ciudad": "Nueva York",
+    "pais": "EEUU",
+    "zona": "Nueva York, EEUU",
+    "tipoCentro": "centro clinica de profecionales",
+    "web": "https://ejemplo.org/equipo-san-martín-nueva-york"
+  },
+  {
+    "id": "55",
+    "nombre": "Dr/a. Paula Flores",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "neurologo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.593912,
+      "lng": -58.373391
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina"
+  },
+  {
+    "id": "56",
+    "nombre": "Dr/a. Javier Vargas",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 14.635938,
+      "lng": -90.508623
+    },
+    "ciudad": "Ciudad de Guatemala",
+    "pais": "Guatemala",
+    "zona": "Ciudad de Guatemala, Guatemala",
+    "contacto": "+11 972 6383"
+  },
+  {
+    "id": "57",
+    "nombre": "Consultorios Del Sol Bilbao",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra",
+      "terapia ocupacional",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 43.277374,
+      "lng": -2.9398
+    },
+    "ciudad": "Bilbao",
+    "pais": "España",
+    "zona": "Bilbao, España",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. San Martín 3946"
+  },
+  {
+    "id": "58",
+    "nombre": "Instituto San Martín Washington DC",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo",
+      "apoyo escolar",
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 38.88904,
+      "lng": -77.025054
+    },
+    "ciudad": "Washington DC",
+    "pais": "EEUU",
+    "zona": "Washington DC, EEUU",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Independencia 9372",
+    "contacto": "+75 246 4804"
+  },
+  {
+    "id": "59",
+    "nombre": "Fundación Sur San Salvador",
+    "esCentro": true,
+    "especialidades": [
+      "apoyo escolar",
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 13.683059,
+      "lng": -89.227987
+    },
+    "ciudad": "San Salvador",
+    "pais": "El Salvador",
+    "zona": "San Salvador, El Salvador",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. San Martín 7337",
+    "contacto": "+39 303 7302"
+  },
+  {
+    "id": "60",
+    "nombre": "Instituto Sur Bilbao",
+    "esCentro": true,
+    "especialidades": [
+      "psiquiatra",
+      "pediatra",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 43.247266,
+      "lng": -2.939745
+    },
+    "ciudad": "Bilbao",
+    "pais": "España",
+    "zona": "Bilbao, España",
+    "tipoCentro": "centro de integracion"
+  },
+  {
+    "id": "61",
+    "nombre": "Instituto Norte Sevilla",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC",
+      "psicologo psicoanalista",
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 40.432917,
+      "lng": -3.69277
+    },
+    "ciudad": "Sevilla",
+    "pais": "España",
+    "zona": "Sevilla, España",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Belgrano 2340",
+    "contacto": "+38 434 7807"
+  },
+  {
+    "id": "62",
+    "nombre": "Dr/a. Carolina Castro",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -26.838814,
+      "lng": -65.221024
+    },
+    "ciudad": "San Miguel de Tucumán",
+    "pais": "Argentina",
+    "zona": "Tucumán, Argentina",
+    "contacto": "+10 244 4696"
+  },
+  {
+    "id": "63",
+    "nombre": "Dr/a. Lautaro Navarro",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 43.271969,
+      "lng": -2.915802
+    },
+    "ciudad": "Bilbao",
+    "pais": "España",
+    "zona": "Bilbao, España",
+    "direccion": "Calle España 214"
+  },
+  {
+    "id": "64",
+    "nombre": "Equipo Del Parque Tokio",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra",
+      "psiquiatra",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 35.660534,
+      "lng": 139.639653
+    },
+    "ciudad": "Tokio",
+    "pais": "Japón",
+    "zona": "Tokio, Japón",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. San Martín 7706",
+    "contacto": "+64 218 2592"
+  },
+  {
+    "id": "65",
+    "nombre": "Consultorios Talentos Comodoro Rivadavia",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC",
+      "neurologo",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -45.863498,
+      "lng": -67.486854
+    },
+    "ciudad": "Comodoro Rivadavia",
+    "pais": "Argentina",
+    "zona": "Chubut, Argentina",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Rivadavia 6897",
+    "web": "https://ejemplo.org/consultorios-talentos-comodoro-rivadavia",
+    "contacto": "+31 975 6942"
+  },
+  {
+    "id": "66",
+    "nombre": "Dr/a. Martín Rodríguez",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -31.412673,
+      "lng": -64.187021
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "direccion": "Calle Sarmiento 1100",
+    "web": "https://ejemplo.org/dr/a-martín-rodríguez",
+    "contacto": "+17 905 4362"
+  },
+  {
+    "id": "67",
+    "nombre": "Clínica Del Parque Córdoba",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -31.409494,
+      "lng": -64.200514
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "tipoCentro": "centro de integracion"
+  },
+  {
+    "id": "68",
+    "nombre": "Clínica Infancia Rosario",
+    "esCentro": true,
+    "especialidades": [
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -32.929542,
+      "lng": -60.665228
+    },
+    "ciudad": "Rosario",
+    "pais": "Argentina",
+    "zona": "Rosario, Santa Fe, Argentina",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Belgrano 958",
+    "contacto": "+47 625 2786"
+  },
+  {
+    "id": "69",
+    "nombre": "Dr/a. Thiago Vargas",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 14.623762,
+      "lng": -90.502296
+    },
+    "ciudad": "Ciudad de Guatemala",
+    "pais": "Guatemala",
+    "zona": "Ciudad de Guatemala, Guatemala",
+    "contacto": "+14 602 8267"
+  },
+  {
+    "id": "70",
+    "nombre": "Instituto Infancia Córdoba",
+    "esCentro": true,
+    "especialidades": [
+      "coaching",
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -31.436868,
+      "lng": -64.184468
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Belgrano 6340",
+    "contacto": "+84 766 4522"
+  },
+  {
+    "id": "71",
+    "nombre": "Dr/a. Paula Ruiz",
+    "esCentro": false,
+    "especialidades": [
+      "psiquiatra",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 25.702124,
+      "lng": -100.319547
+    },
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "zona": "Monterrey, México",
+    "contacto": "+61 168 2494"
+  },
+  {
+    "id": "72",
+    "nombre": "Dr/a. Lautaro González",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 41.886529,
+      "lng": 12.480263
+    },
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "zona": "Roma, Italia"
+  },
+  {
+    "id": "73",
+    "nombre": "Dr/a. Franco Fernández",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 40.431524,
+      "lng": -3.694958
+    },
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": "Madrid, España",
+    "direccion": "Calle Urquiza 4256",
+    "web": "https://ejemplo.org/dr/a-franco-fernández",
+    "contacto": "+72 476 2882"
+  },
+  {
+    "id": "74",
+    "nombre": "Dr/a. Benjamín Vega",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "psicologo psicoanalista",
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 41.388064,
+      "lng": 2.185689
+    },
+    "ciudad": "Barcelona",
+    "pais": "España",
+    "zona": "Barcelona, España",
+    "web": "https://ejemplo.org/dr/a-benjamín-vega"
+  },
+  {
+    "id": "75",
+    "nombre": "Consultorios San Martín Toronto",
+    "esCentro": true,
+    "especialidades": [
+      "coaching",
+      "terapia ocupacional",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 43.647241,
+      "lng": -79.395944
+    },
+    "ciudad": "Toronto",
+    "pais": "Canadá",
+    "zona": "Toronto, Canadá",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. San Martín 1603",
+    "web": "https://ejemplo.org/consultorios-san-martín-toronto",
+    "contacto": "+42 895 2391"
+  },
+  {
+    "id": "76",
+    "nombre": "Centro Sur Los Ángeles",
+    "esCentro": true,
+    "especialidades": [
+      "apoyo escolar",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 34.038423,
+      "lng": -118.233523
+    },
+    "ciudad": "Los Ángeles",
+    "pais": "EEUU",
+    "zona": "Los Ángeles, EEUU",
+    "tipoCentro": "centro clinica de profecionales",
+    "contacto": "+56 213 5640"
+  },
+  {
+    "id": "77",
+    "nombre": "Clínica San Martín La Paz",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -16.485975,
+      "lng": -68.118223
+    },
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "zona": "La Paz, Bolivia",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Rivadavia 5038",
+    "web": "https://ejemplo.org/clínica-san-martín-la-paz",
+    "contacto": "+56 279 3116"
+  },
+  {
+    "id": "78",
+    "nombre": "Dr/a. Lautaro Torres",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 19.440747,
+      "lng": -99.13319
+    },
+    "ciudad": "CDMX",
+    "pais": "México",
+    "zona": "Ciudad de México, México",
+    "direccion": "Calle Laprida 3673"
+  },
+  {
+    "id": "79",
+    "nombre": "Instituto Andares Bogotá",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 4.707708,
+      "lng": -74.087493
+    },
+    "ciudad": "Bogotá",
+    "pais": "Colombia",
+    "zona": "Bogotá, Colombia",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Belgrano 1543",
+    "contacto": "+44 326 6456"
+  },
+  {
+    "id": "80",
+    "nombre": "Dr/a. Lucía Ortega",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 48.839655,
+      "lng": 2.357529
+    },
+    "ciudad": "París",
+    "pais": "Francia",
+    "zona": "París, Francia",
+    "web": "https://ejemplo.org/dr/a-lucía-ortega",
+    "contacto": "+20 878 2234"
+  },
+  {
+    "id": "81",
+    "nombre": "Dr/a. Benjamín Rojas",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicopedagogo",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -26.813186,
+      "lng": -65.222835
+    },
+    "ciudad": "San Miguel de Tucumán",
+    "pais": "Argentina",
+    "zona": "Tucumán, Argentina",
+    "direccion": "Calle Urquiza 2747",
+    "contacto": "+36 705 1920"
+  },
+  {
+    "id": "82",
+    "nombre": "Instituto Sur Vicente López",
+    "esCentro": true,
+    "especialidades": [
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.493632,
+      "lng": -58.52853
+    },
+    "ciudad": "Vicente López",
+    "pais": "Argentina",
+    "zona": "GBA Norte, Buenos Aires, Argentina",
+    "tipoCentro": "centro de integracion"
+  },
+  {
+    "id": "83",
+    "nombre": "Dr/a. Agustina Sánchez",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 51.523235,
+      "lng": -0.129811
+    },
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "zona": "Londres, Reino Unido",
+    "direccion": "Calle España 4207",
+    "contacto": "+83 276 1641"
+  },
+  {
+    "id": "84",
+    "nombre": "Dr/a. Carlos Torres",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -41.13599,
+      "lng": -71.312723
+    },
+    "ciudad": "Bariloche",
+    "pais": "Argentina",
+    "zona": "Río Negro, Argentina",
+    "direccion": "Calle Italia 3273",
+    "web": "https://ejemplo.org/dr/a-carlos-torres",
+    "contacto": "+87 495 5655"
+  },
+  {
+    "id": "85",
+    "nombre": "Dr/a. Sofía Suárez",
+    "esCentro": false,
+    "especialidades": [
+      "psiquiatra",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -41.119437,
+      "lng": -71.291724
+    },
+    "ciudad": "Bariloche",
+    "pais": "Argentina",
+    "zona": "Río Negro, Argentina",
+    "direccion": "Calle Sarmiento 2965",
+    "web": "https://ejemplo.org/dr/a-sofía-suárez",
+    "contacto": "+43 932 3093"
+  },
+  {
+    "id": "86",
+    "nombre": "Dr/a. Carolina López",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -22.893642,
+      "lng": -43.163349
+    },
+    "ciudad": "Río de Janeiro",
+    "pais": "Brasil",
+    "zona": "Río de Janeiro, Brasil",
+    "web": "https://ejemplo.org/dr/a-carolina-lópez"
+  },
+  {
+    "id": "87",
+    "nombre": "Dr/a. Sofía López",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.751054,
+      "lng": -58.41122
+    },
+    "ciudad": "Lomas de Zamora",
+    "pais": "Argentina",
+    "zona": "GBA Sur, Buenos Aires, Argentina",
+    "direccion": "Calle Laprida 4258"
+  },
+  {
+    "id": "88",
+    "nombre": "Dr/a. Franco Ramos",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo",
+      "psicologo psicoanalista",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -33.46273,
+      "lng": -70.682066
+    },
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "zona": "Santiago, Chile"
+  },
+  {
+    "id": "89",
+    "nombre": "Dr/a. Lautaro Molina",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 48.84596,
+      "lng": 2.341767
+    },
+    "ciudad": "París",
+    "pais": "Francia",
+    "zona": "París, Francia",
+    "contacto": "+49 614 9641"
+  },
+  {
+    "id": "90",
+    "nombre": "Dr/a. Julián Díaz",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC",
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 25.673082,
+      "lng": -100.328112
+    },
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "zona": "Monterrey, México",
+    "direccion": "Calle España 3140",
+    "web": "https://ejemplo.org/dr/a-julián-díaz",
+    "contacto": "+58 625 3414"
+  },
+  {
+    "id": "91",
+    "nombre": "Dr/a. Abril Torres",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 41.886469,
+      "lng": 12.51282
+    },
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "zona": "Roma, Italia",
+    "web": "https://ejemplo.org/dr/a-abril-torres"
+  },
+  {
+    "id": "92",
+    "nombre": "Dr/a. Agustina Suárez",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 19.413728,
+      "lng": -99.115967
+    },
+    "ciudad": "CDMX",
+    "pais": "México",
+    "zona": "Ciudad de México, México",
+    "contacto": "+79 105 2298"
+  },
+  {
+    "id": "93",
+    "nombre": "Dr/a. Franco Castro",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.615074,
+      "lng": -58.395619
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "direccion": "Calle Italia 2046"
+  },
+  {
+    "id": "94",
+    "nombre": "Dr/a. Agustina Castro",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "pediatra",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.590232,
+      "lng": -58.381607
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "web": "https://ejemplo.org/dr/a-agustina-castro",
+    "contacto": "+86 784 2402"
+  },
+  {
+    "id": "95",
+    "nombre": "Dr/a. Lautaro Castro",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 18.480524,
+      "lng": -69.913064
+    },
+    "ciudad": "Santo Domingo",
+    "pais": "República Dominicana",
+    "zona": "Santo Domingo, RD",
+    "contacto": "+3 465 2106"
+  },
+  {
+    "id": "96",
+    "nombre": "Dr/a. Emilia Herrera",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.467282,
+      "lng": -58.52187
+    },
+    "ciudad": "Vicente López",
+    "pais": "Argentina",
+    "zona": "GBA Norte, Buenos Aires, Argentina",
+    "direccion": "Calle Laprida 2986",
+    "contacto": "+24 930 3209"
+  },
+  {
+    "id": "97",
+    "nombre": "Centro Norte CABA",
+    "esCentro": true,
+    "especialidades": [
+      "coaching",
+      "neurologo"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.592652,
+      "lng": -58.383293
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Belgrano 8544",
+    "web": "https://ejemplo.org/centro-norte-caba"
+  },
+  {
+    "id": "98",
+    "nombre": "Dr/a. Javier Ortega",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.597471,
+      "lng": -58.390671
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "direccion": "Calle España 3267"
+  },
+  {
+    "id": "99",
+    "nombre": "Clínica Talentos Neuquén",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra",
+      "apoyo escolar",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -38.968296,
+      "lng": -68.06212
+    },
+    "ciudad": "Neuquén",
+    "pais": "Argentina",
+    "zona": "Neuquén, Argentina",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. San Martín 5472",
+    "web": "https://ejemplo.org/clínica-talentos-neuquén",
+    "contacto": "+58 143 6776"
+  },
+  {
+    "id": "100",
+    "nombre": "Dr/a. Juan López",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.903702,
+      "lng": -56.158921
+    },
+    "ciudad": "Montevideo",
+    "pais": "Uruguay",
+    "zona": "Montevideo, Uruguay",
+    "contacto": "+78 794 8179"
+  },
+  {
+    "id": "101",
+    "nombre": "Fundación Infancia CABA",
+    "esCentro": true,
+    "especialidades": [
+      "neurologo",
+      "pediatra de neurodesarrollo",
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.621011,
+      "lng": -58.370459
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "tipoCentro": "centro de integracion",
+    "contacto": "+84 385 5089"
+  },
+  {
+    "id": "102",
+    "nombre": "Dr/a. Thiago Navarro",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 31.211437,
+      "lng": 121.461142
+    },
+    "ciudad": "Shanghái",
+    "pais": "China",
+    "zona": "Shanghái, China",
+    "direccion": "Calle Italia 3755",
+    "web": "https://ejemplo.org/dr/a-thiago-navarro"
+  },
+  {
+    "id": "103",
+    "nombre": "Consultorios Del Parque Ciudad de Guatemala",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 14.650847,
+      "lng": -90.509096
+    },
+    "ciudad": "Ciudad de Guatemala",
+    "pais": "Guatemala",
+    "zona": "Ciudad de Guatemala, Guatemala",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. San Martín 9111"
+  },
+  {
+    "id": "104",
+    "nombre": "Dr/a. María Torres",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo",
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -32.956161,
+      "lng": -60.664945
+    },
+    "ciudad": "Rosario",
+    "pais": "Argentina",
+    "zona": "Rosario, Santa Fe, Argentina",
+    "web": "https://ejemplo.org/dr/a-maría-torres",
+    "contacto": "+92 836 8842"
+  },
+  {
+    "id": "105",
+    "nombre": "Instituto Horizonte Santo Domingo",
+    "esCentro": true,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 18.496867,
+      "lng": -69.918266
+    },
+    "ciudad": "Santo Domingo",
+    "pais": "República Dominicana",
+    "zona": "Santo Domingo, RD",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Mitre 5744",
+    "contacto": "+65 989 1907"
+  },
+  {
+    "id": "106",
+    "nombre": "Consultorios Norte Roma",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 41.903524,
+      "lng": 12.488565
+    },
+    "ciudad": "Roma",
+    "pais": "Italia",
+    "zona": "Roma, Italia",
+    "tipoCentro": "centro clinica de profecionales",
+    "web": "https://ejemplo.org/consultorios-norte-roma",
+    "contacto": "+69 195 9234"
+  },
+  {
+    "id": "107",
+    "nombre": "Equipo Infancia São Paulo",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -23.546828,
+      "lng": -46.630074
+    },
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "zona": "São Paulo, Brasil",
+    "tipoCentro": "centro clinica de profecionales"
+  },
+  {
+    "id": "108",
+    "nombre": "Dr/a. María Molina",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -38.963168,
+      "lng": -68.056215
+    },
+    "ciudad": "Neuquén",
+    "pais": "Argentina",
+    "zona": "Neuquén, Argentina",
+    "web": "https://ejemplo.org/dr/a-maría-molina",
+    "contacto": "+8 261 8202"
+  },
+  {
+    "id": "109",
+    "nombre": "Consultorios Del Parque Guadalajara",
+    "esCentro": true,
+    "especialidades": [
+      "psiquiatra",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 20.658278,
+      "lng": -103.355992
+    },
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": "Guadalajara, México",
+    "tipoCentro": "centro de terapias",
+    "web": "https://ejemplo.org/consultorios-del-parque-guadalajara",
+    "contacto": "+58 353 3308"
+  },
+  {
+    "id": "110",
+    "nombre": "Dr/a. Pedro Vargas",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -31.428492,
+      "lng": -64.193434
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina"
+  },
+  {
+    "id": "111",
+    "nombre": "Dr/a. Carolina Silva",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 8.975642,
+      "lng": -79.535773
+    },
+    "ciudad": "Ciudad de Panamá",
+    "pais": "Panamá",
+    "zona": "Ciudad de Panamá, Panamá",
+    "web": "https://ejemplo.org/dr/a-carolina-silva"
+  },
+  {
+    "id": "112",
+    "nombre": "Centro San Martín Sevilla",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psiquiatra",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 37.396001,
+      "lng": -5.99307
+    },
+    "ciudad": "Sevilla",
+    "pais": "España",
+    "zona": "Sevilla, España",
+    "tipoCentro": "centro de integracion",
+    "web": "https://ejemplo.org/centro-san-martín-sevilla"
+  },
+  {
+    "id": "113",
+    "nombre": "Dr/a. Gonzalo Díaz",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 19.424144,
+      "lng": -99.137746
+    },
+    "ciudad": "CDMX",
+    "pais": "México",
+    "zona": "Ciudad de México, México"
+  },
+  {
+    "id": "114",
+    "nombre": "Equipo San Martín Lomas de Zamora",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "neurologo",
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.744142,
+      "lng": -58.388701
+    },
+    "ciudad": "Lomas de Zamora",
+    "pais": "Argentina",
+    "zona": "GBA Sur, Buenos Aires, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. San Martín 2345",
+    "web": "https://ejemplo.org/equipo-san-martín-lomas-de-zamora"
+  },
+  {
+    "id": "115",
+    "nombre": "Instituto Talentos San Salvador de Jujuy",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -24.166175,
+      "lng": -65.289927
+    },
+    "ciudad": "San Salvador de Jujuy",
+    "pais": "Argentina",
+    "zona": "Jujuy, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Mitre 5011"
+  },
+  {
+    "id": "116",
+    "nombre": "Dr/a. Agustina Ramos",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 6.251722,
+      "lng": -75.600134
+    },
+    "ciudad": "Medellín",
+    "pais": "Colombia",
+    "zona": "Medellín, Colombia",
+    "contacto": "+81 838 7229"
+  },
+  {
+    "id": "117",
+    "nombre": "Dr/a. Luis Sánchez",
+    "esCentro": false,
+    "especialidades": [
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -37.998271,
+      "lng": -57.561337
+    },
+    "ciudad": "Mar del Plata",
+    "pais": "Argentina",
+    "zona": "Mar del Plata, Argentina",
+    "direccion": "Calle Italia 3530"
+  },
+  {
+    "id": "118",
+    "nombre": "Clínica Talentos Montreal",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 45.516613,
+      "lng": -73.557867
+    },
+    "ciudad": "Montreal",
+    "pais": "Canadá",
+    "zona": "Montreal, Canadá",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Independencia 8709"
+  },
+  {
+    "id": "119",
+    "nombre": "Dr/a. Pedro Díaz",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -16.477554,
+      "lng": -68.128726
+    },
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "zona": "La Paz, Bolivia",
+    "web": "https://ejemplo.org/dr/a-pedro-díaz",
+    "contacto": "+93 380 5715"
+  },
+  {
+    "id": "120",
+    "nombre": "Dr/a. Micaela Torres",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -32.937135,
+      "lng": -60.655312
+    },
+    "ciudad": "Rosario",
+    "pais": "Argentina",
+    "zona": "Rosario, Santa Fe, Argentina",
+    "contacto": "+57 771 5201"
+  },
+  {
+    "id": "121",
+    "nombre": "Equipo Sur Madrid",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 40.405359,
+      "lng": -3.690682
+    },
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": "Madrid, España",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Mitre 4020",
+    "contacto": "+53 438 8739"
+  },
+  {
+    "id": "122",
+    "nombre": "Dr/a. Thiago Pérez",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional",
+      "pediatra",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.409269,
+      "lng": -64.208593
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "direccion": "Calle España 4011",
+    "contacto": "+95 840 1611"
+  },
+  {
+    "id": "123",
+    "nombre": "Centro San Martín Montreal",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 45.488703,
+      "lng": -73.55201
+    },
+    "ciudad": "Montreal",
+    "pais": "Canadá",
+    "zona": "Montreal, Canadá",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Belgrano 713",
+    "contacto": "+59 756 9901"
+  },
+  {
+    "id": "124",
+    "nombre": "Dr/a. Valentina Sánchez",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 18.50167,
+      "lng": -69.945832
+    },
+    "ciudad": "Santo Domingo",
+    "pais": "República Dominicana",
+    "zona": "Santo Domingo, RD",
+    "contacto": "+44 909 5833"
+  },
+  {
+    "id": "125",
+    "nombre": "Dr/a. Abril Alvarez",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -12.036109,
+      "lng": -77.05578
+    },
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "zona": "Lima, Perú",
+    "contacto": "+32 106 5272"
+  },
+  {
+    "id": "126",
+    "nombre": "Equipo Infancia CDMX",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 19.430469,
+      "lng": -99.14252
+    },
+    "ciudad": "CDMX",
+    "pais": "México",
+    "zona": "Ciudad de México, México",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Belgrano 3971"
+  },
+  {
+    "id": "127",
+    "nombre": "Instituto Del Parque Washington DC",
+    "esCentro": true,
+    "especialidades": [
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 38.915342,
+      "lng": -77.044461
+    },
+    "ciudad": "Washington DC",
+    "pais": "EEUU",
+    "zona": "Washington DC, EEUU",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Rivadavia 7934"
+  },
+  {
+    "id": "128",
+    "nombre": "Clínica Infancia San Salvador",
+    "esCentro": true,
+    "especialidades": [
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 13.694401,
+      "lng": -89.211636
+    },
+    "ciudad": "San Salvador",
+    "pais": "El Salvador",
+    "zona": "San Salvador, El Salvador",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Mitre 6027"
+  },
+  {
+    "id": "129",
+    "nombre": "Dr/a. Florencia Martínez",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "neurologo",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.536034,
+      "lng": -68.549819
+    },
+    "ciudad": "San Juan",
+    "pais": "Argentina",
+    "zona": "San Juan, Argentina",
+    "contacto": "+66 525 8484"
+  },
+  {
+    "id": "130",
+    "nombre": "Centro San Martín Lima",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional",
+      "psicologo TCC",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -12.044048,
+      "lng": -77.035889
+    },
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "zona": "Lima, Perú",
+    "tipoCentro": "centro clinica de profecionales",
+    "contacto": "+9 583 1519"
+  },
+  {
+    "id": "131",
+    "nombre": "Dr/a. Emilia Cruz",
+    "esCentro": false,
+    "especialidades": [
+      "psiquiatra",
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -28.481701,
+      "lng": -65.794583
+    },
+    "ciudad": "San Fernando del Valle de Catamarca",
+    "pais": "Argentina",
+    "zona": "Catamarca, Argentina"
+  },
+  {
+    "id": "132",
+    "nombre": "Equipo San Martín Santo Domingo",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 18.492241,
+      "lng": -69.937289
+    },
+    "ciudad": "Santo Domingo",
+    "pais": "República Dominicana",
+    "zona": "Santo Domingo, RD",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Rivadavia 156",
+    "contacto": "+45 258 5516"
+  },
+  {
+    "id": "133",
+    "nombre": "Consultorios San Martín Corrientes",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -27.436192,
+      "lng": -58.97608
+    },
+    "ciudad": "Corrientes",
+    "pais": "Argentina",
+    "zona": "Corrientes, Argentina",
+    "tipoCentro": "centro de terapias",
+    "web": "https://ejemplo.org/consultorios-san-martín-corrientes",
+    "contacto": "+77 788 1797"
+  },
+  {
+    "id": "134",
+    "nombre": "Dr/a. Benjamín Vargas",
+    "esCentro": false,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -41.151731,
+      "lng": -71.312741
+    },
+    "ciudad": "Bariloche",
+    "pais": "Argentina",
+    "zona": "Río Negro, Argentina"
+  },
+  {
+    "id": "135",
+    "nombre": "Dr/a. Carolina Romero",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 52.509476,
+      "lng": 13.42005
+    },
+    "ciudad": "Berlín",
+    "pais": "Alemania",
+    "zona": "Berlín, Alemania",
+    "direccion": "Calle Italia 599",
+    "contacto": "+45 758 7244"
+  },
+  {
+    "id": "136",
+    "nombre": "Fundación Andares París",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo",
+      "neurologo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 48.849349,
+      "lng": 2.348853
+    },
+    "ciudad": "París",
+    "pais": "Francia",
+    "zona": "París, Francia",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Rivadavia 5027"
+  },
+  {
+    "id": "137",
+    "nombre": "Dr/a. Thiago Silva",
+    "esCentro": false,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -38.015786,
+      "lng": -57.554467
+    },
+    "ciudad": "Mar del Plata",
+    "pais": "Argentina",
+    "zona": "Mar del Plata, Argentina",
+    "web": "https://ejemplo.org/dr/a-thiago-silva",
+    "contacto": "+78 717 1647"
+  },
+  {
+    "id": "138",
+    "nombre": "Dr/a. Gonzalo Sánchez",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 40.700327,
+      "lng": -73.995532
+    },
+    "ciudad": "Nueva York",
+    "pais": "EEUU",
+    "zona": "Nueva York, EEUU",
+    "direccion": "Calle Italia 2583"
+  },
+  {
+    "id": "139",
+    "nombre": "Clínica Talentos Montreal",
+    "esCentro": true,
+    "especialidades": [
+      "neurologo",
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 45.509525,
+      "lng": -73.559149
+    },
+    "ciudad": "Montreal",
+    "pais": "Canadá",
+    "zona": "Montreal, Canadá",
+    "tipoCentro": "centro clinica de profecionales",
+    "web": "https://ejemplo.org/clínica-talentos-montreal",
+    "contacto": "+64 577 2615"
+  },
+  {
+    "id": "140",
+    "nombre": "Clínica Del Parque Londres",
+    "esCentro": true,
+    "especialidades": [
+      "psicopedagogo",
+      "psicologo psicoanalista",
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 51.516297,
+      "lng": -0.117335
+    },
+    "ciudad": "Londres",
+    "pais": "Reino Unido",
+    "zona": "Londres, Reino Unido",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Mitre 3725",
+    "web": "https://ejemplo.org/clínica-del-parque-londres",
+    "contacto": "+30 488 5026"
+  },
+  {
+    "id": "141",
+    "nombre": "Fundación Del Sol Ciudad de Panamá",
+    "esCentro": true,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 8.989484,
+      "lng": -79.509306
+    },
+    "ciudad": "Ciudad de Panamá",
+    "pais": "Panamá",
+    "zona": "Ciudad de Panamá, Panamá",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Belgrano 2873"
+  },
+  {
+    "id": "142",
+    "nombre": "Clínica Norte Córdoba",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.40738,
+      "lng": -64.206859
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "tipoCentro": "centro de integracion"
+  },
+  {
+    "id": "143",
+    "nombre": "Dr/a. María Navarro",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -22.902139,
+      "lng": -43.173572
+    },
+    "ciudad": "Río de Janeiro",
+    "pais": "Brasil",
+    "zona": "Río de Janeiro, Brasil",
+    "contacto": "+65 932 8054"
+  },
+  {
+    "id": "144",
+    "nombre": "Clínica Norte Berlín",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 52.536391,
+      "lng": 13.389281
+    },
+    "ciudad": "Berlín",
+    "pais": "Alemania",
+    "zona": "Berlín, Alemania",
+    "tipoCentro": "centro de integracion",
+    "contacto": "+32 813 4700"
+  },
+  {
+    "id": "145",
+    "nombre": "Dr/a. Agustina Herrera",
+    "esCentro": false,
+    "especialidades": [
+      "coaching",
+      "neurologo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.908278,
+      "lng": -57.971175
+    },
+    "ciudad": "La Plata",
+    "pais": "Argentina",
+    "zona": "La Plata, Buenos Aires, Argentina",
+    "direccion": "Calle España 3206",
+    "contacto": "+56 760 6427"
+  },
+  {
+    "id": "146",
+    "nombre": "Dr/a. Juan Romero",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -12.032082,
+      "lng": -77.058986
+    },
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "zona": "Lima, Perú",
+    "direccion": "Calle Urquiza 3995"
+  },
+  {
+    "id": "147",
+    "nombre": "Dr/a. Natalia González",
+    "esCentro": false,
+    "especialidades": [
+      "psiquiatra",
+      "psicologo TCC",
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.586549,
+      "lng": -58.389021
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina"
+  },
+  {
+    "id": "148",
+    "nombre": "Dr/a. Lautaro Acosta",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -16.488078,
+      "lng": -68.123946
+    },
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "zona": "La Paz, Bolivia",
+    "web": "https://ejemplo.org/dr/a-lautaro-acosta",
+    "contacto": "+78 887 7499"
+  },
+  {
+    "id": "149",
+    "nombre": "Dr/a. Florencia Molina",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 28.606955,
+      "lng": 77.214365
+    },
+    "ciudad": "Nueva Delhi",
+    "pais": "India",
+    "zona": "Nueva Delhi, India",
+    "direccion": "Calle Urquiza 3175"
+  },
+  {
+    "id": "150",
+    "nombre": "Dr/a. Emilia Alvarez",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -31.433931,
+      "lng": -64.180333
+    },
+    "ciudad": "Córdoba",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "direccion": "Calle Laprida 849",
+    "web": "https://ejemplo.org/dr/a-emilia-alvarez",
+    "contacto": "+56 559 9395"
+  },
+  {
+    "id": "151",
+    "nombre": "Equipo Del Parque Guadalajara",
+    "esCentro": true,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 20.64075,
+      "lng": -103.355443
+    },
+    "ciudad": "Guadalajara",
+    "pais": "México",
+    "zona": "Guadalajara, México",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Independencia 6453",
+    "contacto": "+35 408 5397"
+  },
+  {
+    "id": "152",
+    "nombre": "Fundación Horizonte Ciudad de Panamá",
+    "esCentro": true,
+    "especialidades": [
+      "apoyo escolar",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 8.965831,
+      "lng": -79.519313
+    },
+    "ciudad": "Ciudad de Panamá",
+    "pais": "Panamá",
+    "zona": "Ciudad de Panamá, Panamá",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Rivadavia 8223",
+    "web": "https://ejemplo.org/fundación-horizonte-ciudad-de-panamá"
+  },
+  {
+    "id": "153",
+    "nombre": "Instituto San Martín Lomas de Zamora",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.756892,
+      "lng": -58.386737
+    },
+    "ciudad": "Lomas de Zamora",
+    "pais": "Argentina",
+    "zona": "GBA Sur, Buenos Aires, Argentina",
+    "tipoCentro": "centro de terapias",
+    "web": "https://ejemplo.org/instituto-san-martín-lomas-de-zamora"
+  },
+  {
+    "id": "154",
+    "nombre": "Dr/a. Natalia Ramos",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 28.605558,
+      "lng": 77.216798
+    },
+    "ciudad": "Nueva Delhi",
+    "pais": "India",
+    "zona": "Nueva Delhi, India",
+    "direccion": "Calle España 2396"
+  },
+  {
+    "id": "155",
+    "nombre": "Dr/a. Noelia Sánchez",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -16.487696,
+      "lng": -68.10118
+    },
+    "ciudad": "La Paz",
+    "pais": "Bolivia",
+    "zona": "La Paz, Bolivia",
+    "direccion": "Calle Italia 666",
+    "web": "https://ejemplo.org/dr/a-noelia-sánchez"
+  },
+  {
+    "id": "156",
+    "nombre": "Dr/a. Santiago Rojas",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 6.255763,
+      "lng": -75.598241
+    },
+    "ciudad": "Medellín",
+    "pais": "Colombia",
+    "zona": "Medellín, Colombia",
+    "direccion": "Calle Urquiza 3526",
+    "web": "https://ejemplo.org/dr/a-santiago-rojas",
+    "contacto": "+86 463 3725"
+  },
+  {
+    "id": "157",
+    "nombre": "Dr/a. Paula Herrera",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -23.568728,
+      "lng": -46.613956
+    },
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "zona": "São Paulo, Brasil",
+    "direccion": "Calle España 967",
+    "contacto": "+99 795 9199"
+  },
+  {
+    "id": "158",
+    "nombre": "Centro Horizonte San Salvador de Jujuy",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional",
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -24.165892,
+      "lng": -65.300189
+    },
+    "ciudad": "San Salvador de Jujuy",
+    "pais": "Argentina",
+    "zona": "Jujuy, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Belgrano 5720",
+    "web": "https://ejemplo.org/centro-horizonte-san-salvador-de-jujuy"
+  },
+  {
+    "id": "159",
+    "nombre": "Dr/a. María Vargas",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional",
+      "coaching",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 14.617587,
+      "lng": -90.525113
+    },
+    "ciudad": "Ciudad de Guatemala",
+    "pais": "Guatemala",
+    "zona": "Ciudad de Guatemala, Guatemala",
+    "direccion": "Calle Laprida 1446",
+    "web": "https://ejemplo.org/dr/a-maría-vargas",
+    "contacto": "+60 337 7636"
+  },
+  {
+    "id": "160",
+    "nombre": "Consultorios Infancia São Paulo",
+    "esCentro": true,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -23.563045,
+      "lng": -46.627008
+    },
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "zona": "São Paulo, Brasil",
+    "tipoCentro": "centro de integracion",
+    "direccion": "Av. Independencia 6470"
+  },
+  {
+    "id": "161",
+    "nombre": "Instituto Norte CABA",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psiquiatra",
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.61963,
+      "lng": -58.366721
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "tipoCentro": "centro clinica de profecionales",
+    "direccion": "Av. Independencia 8746",
+    "web": "https://ejemplo.org/instituto-norte-caba"
+  },
+  {
+    "id": "162",
+    "nombre": "Equipo Infancia Montevideo",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.88855,
+      "lng": -56.15626
+    },
+    "ciudad": "Montevideo",
+    "pais": "Uruguay",
+    "zona": "Montevideo, Uruguay",
+    "tipoCentro": "centro de integracion",
+    "contacto": "+50 528 3258"
+  },
+  {
+    "id": "163",
+    "nombre": "Dr/a. Thiago Cruz",
+    "esCentro": false,
+    "especialidades": [
+      "coaching"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -12.049478,
+      "lng": -77.043333
+    },
+    "ciudad": "Lima",
+    "pais": "Perú",
+    "zona": "Lima, Perú",
+    "web": "https://ejemplo.org/dr/a-thiago-cruz",
+    "contacto": "+58 734 1878"
+  },
+  {
+    "id": "164",
+    "nombre": "Fundación Talentos Nueva York",
+    "esCentro": true,
+    "especialidades": [
+      "neurologo",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 40.730874,
+      "lng": -74.006616
+    },
+    "ciudad": "Nueva York",
+    "pais": "EEUU",
+    "zona": "Nueva York, EEUU",
+    "tipoCentro": "centro de terapias",
+    "contacto": "+4 914 4613"
+  },
+  {
+    "id": "165",
+    "nombre": "Fundación Infancia Santiago del Estero",
+    "esCentro": true,
+    "especialidades": [
+      "coaching",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -27.792406,
+      "lng": -64.262696
+    },
+    "ciudad": "Santiago del Estero",
+    "pais": "Argentina",
+    "zona": "Santiago del Estero, Argentina",
+    "tipoCentro": "centro de terapias",
+    "web": "https://ejemplo.org/fundación-infancia-santiago-del-estero"
+  },
+  {
+    "id": "166",
+    "nombre": "Dr/a. Florencia Navarro",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional",
+      "pediatra",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 13.757982,
+      "lng": 100.512071
+    },
+    "ciudad": "Bangkok",
+    "pais": "Tailandia",
+    "zona": "Bangkok, Tailandia",
+    "direccion": "Calle España 938",
+    "contacto": "+16 894 4882"
+  },
+  {
+    "id": "167",
+    "nombre": "Dr/a. Franco Cruz",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.735095,
+      "lng": -60.510035
+    },
+    "ciudad": "Santa Fe",
+    "pais": "Argentina",
+    "zona": "Santa Fe, Argentina",
+    "direccion": "Calle Urquiza 1240"
+  },
+  {
+    "id": "168",
+    "nombre": "Dr/a. Julián Castro",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC",
+      "psicopedagogo",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -26.80494,
+      "lng": -65.230895
+    },
+    "ciudad": "San Miguel de Tucumán",
+    "pais": "Argentina",
+    "zona": "Tucumán, Argentina",
+    "contacto": "+17 355 3396"
+  },
+  {
+    "id": "169",
+    "nombre": "Dr/a. Santiago González",
+    "esCentro": false,
+    "especialidades": [
+      "psiquiatra",
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": 4.724139,
+      "lng": -74.061641
+    },
+    "ciudad": "Bogotá",
+    "pais": "Colombia",
+    "zona": "Bogotá, Colombia"
+  },
+  {
+    "id": "170",
+    "nombre": "Dr/a. Natalia García",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo TCC",
+      "neurologo",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 4.726093,
+      "lng": -74.073912
+    },
+    "ciudad": "Bogotá",
+    "pais": "Colombia",
+    "zona": "Bogotá, Colombia",
+    "web": "https://ejemplo.org/dr/a-natalia-garcía",
+    "contacto": "+28 606 5399"
+  },
+  {
+    "id": "171",
+    "nombre": "Fundación Del Parque Villa María",
+    "esCentro": true,
+    "especialidades": [
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -31.422156,
+      "lng": -63.052308
+    },
+    "ciudad": "Villa María",
+    "pais": "Argentina",
+    "zona": "Córdoba, Argentina",
+    "tipoCentro": "centro de terapias",
+    "web": "https://ejemplo.org/fundación-del-parque-villa-maría"
+  },
+  {
+    "id": "172",
+    "nombre": "Consultorios Andares San Salvador de Jujuy",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "pediatra",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -24.187539,
+      "lng": -65.279826
+    },
+    "ciudad": "San Salvador de Jujuy",
+    "pais": "Argentina",
+    "zona": "Jujuy, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Belgrano 1629",
+    "contacto": "+90 873 4836"
+  },
+  {
+    "id": "173",
+    "nombre": "Centro Andares Monterrey",
+    "esCentro": true,
+    "especialidades": [
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 25.670248,
+      "lng": -100.332293
+    },
+    "ciudad": "Monterrey",
+    "pais": "México",
+    "zona": "Monterrey, México",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Independencia 252",
+    "contacto": "+30 492 2463"
+  },
+  {
+    "id": "174",
+    "nombre": "Dr/a. Sofía Alvarez",
+    "esCentro": false,
+    "especialidades": [
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 40.400897,
+      "lng": -3.711266
+    },
+    "ciudad": "Madrid",
+    "pais": "España",
+    "zona": "Madrid, España",
+    "contacto": "+45 839 4490"
+  },
+  {
+    "id": "175",
+    "nombre": "Dr/a. Julián Sánchez",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -23.564445,
+      "lng": -46.636832
+    },
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "zona": "São Paulo, Brasil",
+    "direccion": "Calle Laprida 1246",
+    "contacto": "+18 353 5537"
+  },
+  {
+    "id": "176",
+    "nombre": "Dr/a. Diego Herrera",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -23.560573,
+      "lng": -46.62926
+    },
+    "ciudad": "São Paulo",
+    "pais": "Brasil",
+    "zona": "São Paulo, Brasil",
+    "contacto": "+7 902 4921"
+  },
+  {
+    "id": "177",
+    "nombre": "Dr/a. Carolina Ortega",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra de neurodesarrollo",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 8.96781,
+      "lng": -79.516717
+    },
+    "ciudad": "Ciudad de Panamá",
+    "pais": "Panamá",
+    "zona": "Ciudad de Panamá, Panamá",
+    "contacto": "+61 888 2195"
+  },
+  {
+    "id": "178",
+    "nombre": "Centro San Martín CABA",
+    "esCentro": true,
+    "especialidades": [
+      "psiquiatra",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.620999,
+      "lng": -58.391113
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Mitre 6906",
+    "web": "https://ejemplo.org/centro-san-martín-caba",
+    "contacto": "+66 308 3545"
+  },
+  {
+    "id": "179",
+    "nombre": "Dr/a. Federico Cruz",
+    "esCentro": false,
+    "especialidades": [
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 18.481729,
+      "lng": -69.925828
+    },
+    "ciudad": "Santo Domingo",
+    "pais": "República Dominicana",
+    "zona": "Santo Domingo, RD",
+    "direccion": "Calle España 2054",
+    "web": "https://ejemplo.org/dr/a-federico-cruz"
+  },
+  {
+    "id": "180",
+    "nombre": "Centro Andares CABA",
+    "esCentro": true,
+    "especialidades": [
+      "coaching",
+      "pediatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -34.597057,
+      "lng": -58.375278
+    },
+    "ciudad": "CABA",
+    "pais": "Argentina",
+    "zona": "CABA, Argentina",
+    "tipoCentro": "centro de terapias",
+    "direccion": "Av. Independencia 5780",
+    "web": "https://ejemplo.org/centro-andares-caba"
+  }
+]

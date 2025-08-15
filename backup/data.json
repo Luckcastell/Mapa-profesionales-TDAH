@@ -1,0 +1,196 @@
+[
+  {
+    "id": "1",
+    "nombre": "Centro Andares",
+    "esCentro": true,
+    "tipoCentro": "centro de terapias",
+    "especialidades": [
+      "psicopedagogo",
+      "terapia ocupacional",
+      "psicologo TCC"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.6037,
+      "lng": -58.3816
+    },
+    "direccion": "Av. Corrientes 1000, CABA",
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina",
+    "web": "https://ejemplo.org/andares",
+    "contacto": "+54 11 5555-1111"
+  },
+  {
+    "id": "2",
+    "nombre": "Clínica Norte",
+    "esCentro": true,
+    "tipoCentro": "centro clinica de profecionales",
+    "especialidades": [
+      "psiquiatra",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 4.711,
+      "lng": -74.0721
+    },
+    "direccion": "Cra 7 # 12-34",
+    "ciudad": "Bogotá",
+    "pais": "Colombia"
+  },
+  {
+    "id": "3",
+    "nombre": "Dra. María López",
+    "esCentro": false,
+    "especialidades": [
+      "pediatra",
+      "pediatra de neurodesarrollo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -33.4489,
+      "lng": -70.6693
+    },
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "contacto": "+56 2 2222-3333"
+  },
+  {
+    "id": "4",
+    "nombre": "NeuroCentro Madrid",
+    "esCentro": true,
+    "tipoCentro": "centro de integracion",
+    "especialidades": [
+      "neurologo",
+      "psiquiatra"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 40.4168,
+      "lng": -3.7038
+    },
+    "ciudad": "Madrid",
+    "pais": "España",
+    "web": "https://ejemplo.org/neurocentro"
+  },
+  {
+    "id": "5",
+    "nombre": "Apoyo Escolar Retiro",
+    "esCentro": false,
+    "especialidades": [
+      "apoyo escolar",
+      "coaching"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.5918,
+      "lng": -58.3817
+    },
+    "ciudad": "Buenos Aires",
+    "pais": "Argentina"
+  },
+  {
+    "id": "6",
+    "nombre": "Therapy Hub NYC",
+    "esCentro": true,
+    "tipoCentro": "centro de terapias",
+    "especialidades": [
+      "psicologo TCC",
+      "terapia ocupacional"
+    ],
+    "poblacion": [
+      "adultos",
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    "ciudad": "New York",
+    "pais": "USA"
+  },
+  {
+    "id": "7",
+    "nombre": "Dr. João Pereira",
+    "esCentro": false,
+    "especialidades": [
+      "neurologo"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": -23.5505,
+      "lng": -46.6333
+    },
+    "ciudad": "São Paulo",
+    "pais": "Brasil"
+  },
+  {
+    "id": "8",
+    "nombre": "Centro Horizonte Lima",
+    "esCentro": true,
+    "tipoCentro": "centro de integracion",
+    "especialidades": [
+      "psicopedagogo",
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "infanto-juvenil",
+      "adultos"
+    ],
+    "coords": {
+      "lat": -12.0464,
+      "lng": -77.0428
+    },
+    "ciudad": "Lima",
+    "pais": "Perú"
+  },
+  {
+    "id": "9",
+    "nombre": "Dra. Ana Gómez",
+    "esCentro": false,
+    "especialidades": [
+      "psicologo psicoanalista"
+    ],
+    "poblacion": [
+      "adultos"
+    ],
+    "coords": {
+      "lat": 41.3851,
+      "lng": 2.1734
+    },
+    "ciudad": "Barcelona",
+    "pais": "España"
+  },
+  {
+    "id": "10",
+    "nombre": "Centro Infantil Montevideo",
+    "esCentro": true,
+    "tipoCentro": "centro de terapias",
+    "especialidades": [
+      "terapia ocupacional",
+      "psicopedagogo"
+    ],
+    "poblacion": [
+      "infanto-juvenil"
+    ],
+    "coords": {
+      "lat": -34.9011,
+      "lng": -56.1645
+    },
+    "ciudad": "Montevideo",
+    "pais": "Uruguay"
+  }
+]

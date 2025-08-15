@@ -1,0 +1,23 @@
+Explicación del Proyecto (Versión para Cliente)
+
+Este sistema es una página web interactiva que permite ver en un mapa mundial la ubicación de diferentes profesionales y centros, organizados por especialidad.
+
+Funcionalidades Clave:
+- Mapa mundial con marcadores de colores según la especialidad.
+- Posibilidad de filtrar por nombre, tipo de centro, especialidad, público (infanto-juvenil o adultos) y zona geográfica.
+- Vista de resultados y filtros en una barra lateral.
+
+Para el usuario común:
+- Puede buscar y encontrar profesionales cercanos o especializados de forma fácil.
+- Puede visualizar información detallada con un solo clic en el marcador.
+
+Para el administrador:
+- Puede dar de alta nuevos profesionales o editar existentes desde un formulario.
+- Puede obtener coordenadas exactas automáticamente a partir de una dirección, gracias a un sistema de geocodificación avanzado.
+- Puede exportar e importar la base de datos de forma sencilla.
+- Cuenta con una página especial para convertir direcciones en coordenadas listas para usar en la base de datos.
+
+Beneficio principal:
+Ofrece una forma rápida y precisa de conectar a personas con profesionales, reduciendo el tiempo de búsqueda y mejorando la precisión en la ubicación.
+
+La interfaz es intuitiva, incluso para quienes no están familiarizados con la tecnología, y la administración de datos está diseñada para que no requiera conocimientos técnicos avanzados.

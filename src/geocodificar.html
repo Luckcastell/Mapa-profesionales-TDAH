@@ -1,0 +1,97 @@
+<!--
+  Geocodificador rápido (dirección → coords)
+  Proyecto: Red de Profesionales
+  Descripción: Archivo comentado en español. Explica el propósito de cada sección.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Geocodificar dirección → coords</title>
+  <link rel="stylesheet" href="estilos.css"/>
+  <style>
+    .contenedor{max-width:720px;margin:20px auto;padding:0 12px}
+    .caja{background:var(--tarjeta);border:1px solid var(--borde);border-radius:14px;padding:16px;box-shadow:0 3px 10px rgba(0,0,0,.04)}
+    .fila{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
+    .fila input{flex:1}
+    pre{background:#0b1020;color:#e2e8f0;padding:12px;border-radius:10px;overflow:auto}
+    .salida{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <!-- Título de la herramienta -->
+<h1>Geocodificar dirección → coords</h1>
+    <div class="caja">
+      <div class="fila">
+        <input id="entradaDireccion" placeholder="Ej: Av. Corrientes 1000, CABA, Argentina"/>
+        <button id="btnBuscar" class="btn">Buscar</button>
+        <button id="btnCopiar" class="btn secundario">Copiar</button>
+      </div>
+      <small id="estadoGeo" class="ayuda"></small>
+      <div id="sugerenciasGeo" class="sugerencias" style="margin-top:8px"></div>
+      <h3>Resultado</h3>
+      <pre class="salida" id="salida">"coords": {
+  "lat": ,
+  "lng": 
+},</pre>
+    </div>
+  </div>
+  <script>
+    async function buscarDireccion(q){
+      const url = "https://nominatim.openstreetmap.org/search?format=json&limit=5&q=" + encodeURIComponent(q);
+      const r = await fetch(url, {headers: {"Accept":"application/json"}});
+      if(!r.ok) throw new Error("HTTP "+r.status);
+      return await r.json();
+    }
+    function formatear(lat,lng){
+      return `"coords": {\n  "lat": ${lat.toFixed(6)},\n  "lng": ${lng.toFixed(6)}\n},`;
+    }
+    function poblarSugerencias(arr){
+      const box = document.getElementById("sugerenciasGeo");
+      if(!arr || !arr.length){ box.style.display="none"; box.innerHTML=""; return; }
+      box.style.display="block";
+      box.innerHTML = arr.map(it => {
+        const titulo = (it.display_name||"").split(",").slice(0,3).join(", ");
+        return `<button type="button" class="sug-item" data-lat="${it.lat}" data-lng="${it.lon}" data-full="${(it.display_name||"").replace(/"/g,'&quot;')}">${titulo}</button>`;
+      }).join("");
+      box.querySelectorAll(".sug-item").forEach(btn=>{
+        btn.addEventListener("click", ()=>{
+          const lat = parseFloat(btn.getAttribute("data-lat"));
+          const lng = parseFloat(btn.getAttribute("data-lng"));
+          document.getElementById("salida").textContent = formatear(lat,lng);
+          document.getElementById("estadoGeo").textContent = "Coordenadas seleccionadas.";
+          box.style.display="none"; box.innerHTML="";
+        });
+      });
+    }
+    document.getElementById("btnBuscar").addEventListener("click", async ()=>{
+      const q = document.getElementById("entradaDireccion").value.trim();
+      const estado = document.getElementById("estadoGeo");
+      try{
+        if(!q){ estado.textContent = "Ingresá una dirección."; return; }
+        estado.textContent = "Buscando...";
+        const res = await buscarDireccion(q);
+        poblarSugerencias(res);
+        if(res.length){
+          const lat = parseFloat(res[0].lat), lng = parseFloat(res[0].lon);
+          document.getElementById("salida").textContent = formatear(lat,lng);
+          estado.textContent = "Listo. Elegí una sugerencia para afinar.";
+        }else{
+          estado.textContent = "Sin resultados.";
+        }
+      }catch(e){ estado.textContent = "Error: " + e.message; }
+    });
+    document.getElementById("btnCopiar").addEventListener("click", async ()=>{
+      try{
+        const t = document.getElementById("salida").textContent;
+        await navigator.clipboard.writeText(t);
+        document.getElementById("estadoGeo").textContent = "Copiado al portapapeles.";
+      }catch(e){
+        document.getElementById("estadoGeo").textContent = "No se pudo copiar.";
+      }
+    });
+  </script>
+</body>
+</html>

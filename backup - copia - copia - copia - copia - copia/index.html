@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Red de Profesionales – Mapa</title>
+  <link rel="stylesheet" href="estilos.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+</head>
+<body>
+  <header class="encabezado">
+    <div class="marca">
+      <span class="marca-icono">🗺️</span>
+      <h1>Red de Profesionales</h1>
+    </div>
+    <div class="acciones">
+      <a href="formulario.html" class="btn">Abrir Formulario</a>
+      <button id="btnExportarJSON" class="btn">Exportar JSON</button>
+      <button id="btnExportarCSV" class="btn">Exportar CSV</button>
+      <label class="btn archivo-btn">
+        Importar JSON
+        <input type="file" id="archivoImportarJSON" accept="application/json"/>
+      </label>
+    </div>
+  </header>
+
+  
+  <main class="distribucion distribucion-3col">
+    <!-- Columna izquierda: Filtros -->
+    <aside class="lateral filtros">
+      <section class="tarjeta">
+        <h2>Filtros</h2>
+        <div class="campo">
+          <label for="busqueda">Por nombre</label>
+          <input id="busqueda" type="search" placeholder="Ej: Andares, López…"/>
+        </div>
+        <div class="campo">
+          <label for="filtroZona">Zona</label>
+          <select id="filtroZona">
+            <option value="">Todas</option>
+          </select>
+        </div>
+        <details open>
+          <summary>Centros</summary>
+          <div id="filtrosCentros" class="lista-check"></div>
+        </details>
+        <details open>
+          <summary>Especialidad</summary>
+          <div id="filtrosEspecialidades" class="lista-check scroll"></div>
+        </details>
+        <details open>
+          <summary>Población</summary>
+          <div id="filtrosPoblacion" class="lista-check"></div>
+        </details>
+        <div class="chips" id="filtrosActivos"><span class="muted">Sin filtros activos</span></div>
+        <button id="btnLimpiarFiltros" class="btn secundario">Limpiar filtros</button>
+      </section>
+    </aside>
+
+    <!-- Columna centro: Mapa -->
+    <section class="panel-mapa centro">
+      <div id="mapa"></div>
+      <div class="leyenda" id="leyenda"></div>
+    </section>
+
+    <!-- Columna derecha: Listado -->
+    <aside class="lateral listado">
+      <section class="tarjeta">
+        <h2>Listado <span id="conteoLista" class="etiqueta">0</span></h2>
+        <div id="lista" class="lista lista-derecha"></div>
+      </section>
+    </aside>
+  </main>
+
+
+  <footer class="pie pie-doscolumnas">
+    <div class="izquierda"><span id="estadoBD">Base de datos: <em>cargando…</em></span></div>
+    <div class="derecha">Hecho con OpenStreetMap · Última build: 2025-08-15 05:10</div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="mapa.js"></script>
+</body>
+</html>

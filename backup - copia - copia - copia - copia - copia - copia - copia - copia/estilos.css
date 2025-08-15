@@ -1,0 +1,89 @@
+
+:root{--fondo:#f8fafc;--tarjeta:#ffffff;--texto-primario:#0f172a;--texto-secundario:#666;--muted:#64748b;--borde:#e2e8f0;--primario:#2563eb;--secundario:#0ea5e9;--peligro:#ef4444;--chip:#f1f5f9;--chip-borde:#e2e8f0;--chip-texto:#334155; }
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:ui-sans-serif,system-ui,sans-serif;color:var(--texto-primario);background:linear-gradient(180deg,var(--fondo),#fff);}
+.encabezado{display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-bottom:1px solid var(--borde);background:rgba(255,255,255,.85);backdrop-filter:blur(6px);position:sticky;top:0;z-index:10}
+.pie{display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 16px;border-top:1px solid var(--borde);background:rgba(255,255,255,.9);flex-wrap:wrap}
+.pie-doscolumnas{justify-content:space-between}
+.marca{display:flex;align-items:center;gap:8px}
+.marca h1{font-size:18px;margin:0}
+.marca-icono{font-size:20px}
+.acciones{display:flex;gap:8px;flex-wrap:wrap}
+.distribucion{display:grid;grid-template-columns:360px 1fr;gap:12px;max-width:1200px;margin:12px auto;padding:0 12px}
+.distribucion-3col{display:grid;grid-template-columns: 300px 1fr 340px;gap: 10px;align-items: start;}
+.formulario-layout{grid-template-columns:1fr 1fr}
+.lateral{display:flex;flex-direction:column;gap:12px}
+.tarjeta{background:var(--tarjeta);border:1px solid var(--borde);border-radius:14px;padding:12px;box-shadow:0 3px 10px rgba(0, 0, 0, 0.04)}
+.tarjeta h2{margin:0 0 8px 0;font-size:16px}
+.campo{display:flex;flex-direction:column;gap:6px;margin-bottom:10px}
+.campo.inline{flex-direction:row;align-items:center;gap:10px}
+.campo.grid2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+label{font-size:13px;color:var(--muted)}
+input,select{padding:8px 10px;border:1px solid var(--borde);border-radius:10px;font-size:14px;outline:none}
+input:focus,select:focus{border-color:var(--secundario);box-shadow:0 0 0 3px rgba(14,165,233,.15)}
+.btn{background:var(--primario);color:var(--texto-primario);border:none;padding:8px 12px;border-radius:10px;cursor:pointer;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+.btn:hover{filter:brightness(0.96)}
+.btn.secundario{background:var(--chip-texto)}
+.btn.peligro{background:var(--peligro)}
+.archivo-btn{position:relative;overflow:hidden;}
+.archivo-btn input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.lista-check{display:grid;grid-template-columns:1fr;gap:6px}
+.lista-check.compacto{grid-template-columns:1fr 1fr}
+.scroll{max-height:160px;overflow:auto;border:1px solid var(--borde);padding:8px;border-radius:10px;background:#fff}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}
+.chip{background:var(--chip);padding:4px 8px;border-radius:999px;border:1px solid var(--borde);font-size:11px}
+.etiqueta{font-size:12px;background:var(--chip);padding:2px 6px;border-radius:999px;border:1px solid var(--borde)}
+.lista{display:grid;gap:8px;max-height:320px;overflow:auto;padding-right:6px}
+.lista .fila{border:1px solid var(--borde);border-radius:12px;padding:8px;display:flex;flex-direction:column;gap:6px}
+.fila .titulo{display:flex;align-items:center;justify-content:space-between;font-weight:700}
+.fila .meta{font-size:12px;color:var(--muted)}
+.fila .tags{display:flex;gap:6px;flex-wrap:wrap}
+.panel-mapa{position:relative;background:var(--tarjeta);border:1px solid var(--borde);border-radius:14px;overflow:hidden;min-height:560px}
+#mapa{height:560px;width:100%}
+.filtros .tarjeta{position:sticky; top:72px}
+.listado .tarjeta{position:sticky; top:72px; max-height: calc(100vh - 100px); overflow:auto}
+.lista-derecha{max-height: calc(100vh - 160px); overflow:auto; padding-right:6px}
+.ayuda{color:var(--muted);font-size:12px}
+.errores{margin-top:8px;color:#b91c1c;background:#fee2e2;border:1px solid #fecaca;padding:8px;border-radius:10px}
+.muted{color:var(--muted)}
+.small{font-size:12px}
+details summary{cursor:pointer;font-weight:700;margin:4px 0}
+.pie .texto{font-size:0.9em; color:var(--texto-secundario)}
+.pie .texto a{font-size:0.9em; color:var(--texto-secundario)}
+@media (max-width: 1100px){.distribucion-3col{grid-template-columns:1fr}.formulario-layout{grid-template-columns:1fr}.filtros .tarjeta, .listado .tarjeta{position:static; max-height:none}#mapa{height:480px}}
+
+/* --- Mapa fijo --- */
+.centro{position:sticky; top:72px; align-self:start}
+.centro #mapa{height:calc(100vh - 120px); min-height:420px}
+@media (max-width:1100px){
+  .centro{position:static}
+  .centro #mapa{height:480px}
+}
+
+/* --- Barra lateral === */
+.distribucion-2col{
+  display:grid;
+  grid-template-columns: 1fr 360px;
+  gap:12px;
+  max-width:1200px;
+  margin:12px auto;
+  padding:0 12px;
+  align-items:start;
+}
+.con-barra-derecha .centro{position:sticky; top:72px; align-self:start}
+.con-barra-derecha .centro #mapa{height:calc(100vh - 120px); min-height:420px}
+
+.barra-derecha{display:flex; flex-direction:column; gap:10px; position:sticky; top:72px; max-height: calc(100vh - 100px)}
+.barra-derecha .tabs-lateral{display:flex; gap:8px}
+.barra-derecha .tab-btn{flex:1;background:var(--chip-borde); border:1px solid #cbd5e1; border-radius:10px; padding:8px 10px; cursor:pointer; font-weight:600}
+.barra-derecha .tab-btn.activo{background:var(--primario); color:var(--texto-primario); border-color:var(--primario)}
+.panel-lateral{overflow:auto; padding-right:4px}
+.btn.ancho{width:100%}
+
+@media (max-width: 1100px){
+  .distribucion-2col{grid-template-columns:1fr}
+  .barra-derecha{position:static; max-height:none}
+  .con-barra-derecha .centro{position:static}
+  .con-barra-derecha #mapa{height:480px}
+}
