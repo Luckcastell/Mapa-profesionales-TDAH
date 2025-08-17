@@ -1,3 +1,9 @@
+// mapa.js
+// Requiere Leaflet (+ MarkerCluster si se desea) y data.js cargado previamente.
+// Supone que existe un <div id="map"></div> y una barra de filtros básica.
+
+/* global L, TIPOS_CENTRO, ESPECIALIDADES, POBLACIONES, MODALIDADES, PROFESIONALES */
+
 (function () {
   // ---------- Utilidades ----------
   function esc(s = "") {
@@ -41,7 +47,7 @@
     filtroModalidad: new Set(),
     filtroTipoCentro: new Set(),
     filtroZona: new Set(),
-    ordenarPor: "nombre"
+    ordenarPor: "nombre" // "nombre" | "ciudad" | "distancia"
   };
 
   // ---------- Mapa ----------
@@ -120,7 +126,7 @@
   function poblarOpciones() {
     function setOptions(el, arr, withEmpty = true) {
       if (!el) return;
-      el.innerHTML = "";
+      el.innerHTML = ""; // seguro, controlado por nosotros
       if (withEmpty) {
         const opt = document.createElement("option");
         opt.value = "";
@@ -192,6 +198,7 @@
     const c = mapa.getCenter();
     const dx = latlng.lat - c.lat;
     const dy = latlng.lng - c.lng;
+    // aproximación para ordenar: no usamos haversine para rendimiento
     return dx * dx + dy * dy;
   }
 

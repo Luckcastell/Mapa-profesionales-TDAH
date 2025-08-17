@@ -5,7 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mapa de Red de Profesionales</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { margin:0; font-family: sans-serif; display:flex; height:100vh; }
+    #sidebar { width:420px; padding:10px; overflow-y:auto; border-right:1px solid #ccc; }
+    #map { flex:1; }
+    .tag { background:#eee; border-radius:4px; padding:2px 6px; margin:2px; display:inline-block; }
+    .popup .titulo { font-weight:bold; }
+    .i-titulo { font-weight:bold; }
+    ul { list-style:none; padding:0; }
+    li { cursor:pointer; padding:4px; border-bottom:1px solid #eee; }
+    li:hover { background:#f5f5f5; }
+  
+    /* filtros dos renglones */
+    #sidebar label { display:block; margin-top:6px; font-weight:600; }
+    #sidebar label select { display:block; width:100%; margin-top:4px; }
+    #sidebar select, #sidebar input { width:100%; box-sizing:border-box; }
+    #orden-busqueda { margin:10px 0; padding:8px 0; border-top:1px solid #eee; border-bottom:1px solid #eee; }
+    #orden-busqueda .row { display:flex; gap:8px; align-items:center; }
+    #orden-busqueda input { flex:1; }
+    #orden-busqueda select { flex:1; }
+    
+  </style>
 </head>
 <body>
   <div id="sidebar">
@@ -19,7 +39,7 @@
     <label>Zona <select id="filtro-zona"></select></label>
     <button id="btn-limpiar">Limpiar todo</button>
     <div id="orden-busqueda" aria-label="Buscador y orden">
-      <h3>Ordenar por</h3>
+      <h3>Orden de Busqueda</h3>
       <div class="row"><select id="ordenar-por">
           <option value="nombre">Nombre</option>
           <option value="ciudad">Ciudad</option>
